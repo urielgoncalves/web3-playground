@@ -74,7 +74,7 @@ contract URIToken is ERC20Interface, SafeMath {
         decimals = 2;
         _totalSupply = 21000000;
         balances[YOUR_METAMASK_WALLET_ADDRESS] = _totalSupply;
-        emit Transfer(address(0), YOUR_METAMASK_WALLET_ADDRESS2, _totalSupply);
+        emit Transfer(address(0), YOUR_METAMASK_WALLET_ADDRESS, _totalSupply);
     }
 
     function totalSupply() public view returns (uint) {
